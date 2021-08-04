@@ -1,0 +1,10 @@
+{
+  "name": "ISO3166-generator",
+  "version": "1.0.0",
+  "description": "Generate Country/State JSON from various pieces",
+  "main": "index.js",
+  "repository": "git@github.com:trogulja/ISO3166-generator.git",
+  "author": "Tibor Rogulja <tibor.rogulja@productive.io>",
+  "license": "GNU GPL V3.0",
+  "private": false
+}
