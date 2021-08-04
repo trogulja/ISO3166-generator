@@ -3,11 +3,20 @@
   "version": "1.0.0",
   "description": "Generate Country/State JSON from various pieces",
   "main": "index.js",
+  "scripts": {
+    "start": "babel-node --presets @babel/preset-env index.js"
+  },
   "repository": "git@github.com:trogulja/ISO3166-generator.git",
   "author": "Tibor Rogulja <tibor.rogulja@productive.io>",
   "license": "GPL-3.0-only",
   "private": false,
   "dependencies": {
     "iso3166-2-db": "^2.3.8"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.14.8",
+    "@babel/node": "^7.14.9",
+    "@babel/preset-env": "^7.14.9"
   }
 }
